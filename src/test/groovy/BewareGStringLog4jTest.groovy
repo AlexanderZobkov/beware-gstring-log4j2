@@ -11,6 +11,7 @@ class BewareGStringLog4jTest {
 
     @Test
     void log_gstring_is_extremely_slow() {
+        println 'Groovy version: ' + GroovySystem.version
         Logger log = LogManager.getLogger('aaa')
         User user = new User(name: 'Ivan', id:1000)
         Duration timeTook = measure {
