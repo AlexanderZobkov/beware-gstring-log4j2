@@ -20,7 +20,7 @@ jobs:
   build:
     strategy:
       matrix:
-        groovy-version: [ '4.0.10', '5.0.0-alpha-4' ]
+        groovy-version: [ '4.0.10', '5.0.0-alpha-8' ]
 
     runs-on: ubuntu-latest
 
